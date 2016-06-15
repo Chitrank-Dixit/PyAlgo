@@ -1,15 +1,15 @@
 from distutils.core import setup
 
 modules = [
-	#'algos.structures',
-	'algos.operations.swap',
+    #'algos.structures',
+    'algos.operations.swap',
     'algos.sorting.insertion_sort'
 ]
 
 
 setup(
     name         = 'Algos',
-    version      = '0.0.2',
+    version      = '0.0.3',
     py_modules   =  modules,
     author       = 'Chitrank Dixit',
     author_email = 'chitrankdixit@gmail.com',

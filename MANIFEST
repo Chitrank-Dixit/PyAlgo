@@ -2,3 +2,5 @@
 setup.py
 algos/operations/__init__.py
 algos/operations/swap.py
+algos/sorting/__init__.py
+algos/sorting/insertion_sort.py
