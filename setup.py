@@ -3,7 +3,8 @@ from distutils.core import setup
 modules = [
     #'algos.structures',
     'algos.operations.swap',
-    'algos.sorting.insertion_sort'
+    'algos.sorting.insertion_sort',
+    'algos.searching.linear_search'
 ]
 
 

@@ -9,6 +9,8 @@ class Swap(object):
         
 	    >>> instance = Swap(1,2)
         >>> value2, value1 = instance.get_swap_values()
+        >>> print value1, value2
+        2 1
     """
     def __init__(self, value1, value2):
         self.value1 = value1
