@@ -4,19 +4,20 @@
 
 class InsertionSort(object):
     """
-	Takes two values and swaps them
         Basic Usage:
 
         Simply Sorting
 
 	    >>> instance = InsertionSort([12, 65, 23, 67, 45, 78, 90, 34, 23, 67, 45])
         >>> sorted_list = instance.sort()
+        >>> sorted_list
         [12, 23, 23, 34, 45, 45, 65, 67, 67, 78, 90]
 
         Sorting in the Reverse Order
 
         >>> instance = InsertionSort([12, 65, 23, 67, 45, 78, 90, 34, 23, 67, 45])
         >>> sorted_list = instance.sort(reverse=True)
+        >>> sorted_list
         [90, 78, 67, 67, 65, 45, 45, 34, 23, 23, 12]
     """
     def __init__(self, *args):
